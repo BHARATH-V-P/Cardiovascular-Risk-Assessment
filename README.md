@@ -3,12 +3,12 @@
 The Cardiovascular Risk Assessment project focuses on evaluating cardiovascular risk by analyzing various health metrics, lifestyle factors and more . The project involves a comprehensive approach to data wrangling, exploratory data analysis (EDA), and model optimization to accurately predict cardiovascular risk. 
 
 ## Table of Contents
-[Introduction](#introduction)
-[Installation](#installation)
-[Usage](#usage)
-[Features](#features)
-[Results](#results)
-[License](#license)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Results](#results)
+- [License](#license)
 
 
 ##Introduction
