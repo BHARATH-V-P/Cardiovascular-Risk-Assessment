@@ -52,8 +52,10 @@ The script will:
 3. Model Evaluation: Assesses model performance such as accuracy and AUC scores through various metrics.
   
 ## Results
-Data Wrangling and EDA: Detailed data wrangling and EDA ensured accurate feature interactions and variability assessment.
-Pre-Processing Techniques: Streamlined preprocessing techniques were validated and optimized across multiple models.
-Model Performance: Achieved a 7% improvement in overall model accuracy through iterative optimization and validation.
-License
+- Data Wrangling and EDA: Detailed data wrangling and EDA ensured accurate feature interactions and variability assessment.
+- Pre-Processing Techniques: Streamlined preprocessing techniques were validated and optimized across multiple models includeing XGB Classifier and Random Forest -Classifier.
+- Model Performance: Achieved a 8.5 % improvement in overall model accuracy through iterative optimization and validation.
+- The F1 score rose to 93.75%, showing a substantial improvement in the model's overall balance between precision and recall. Indicates better harmonic mean of precision and recall.
+- Overall, the model improvements led to higher accuracy, AUC score and F1 score with fewer misclassifications, indicating a more robust and reliable classifier.
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
