@@ -52,7 +52,29 @@ xgb.XGBClassifier                | 0.852459 | 0.896552  | 0.852459  | 0.81250 | 
 MLP                              | 0.836066 | 0.866667  | 0.838710  | 0.81250 | [[25, 4], [6, 26]]        | 0.884698
 ----------------------------------------------------------------------------------------------------------------------
 
-### Model Performance Metrics
+# Model Performance Results based on applying Bayesian Hyperparameter optimization to XGB Classifiers ans Random Forest Classifiers accross various configurations
+
+| Model                      | Configuration           | Accuracy | F1       | AUC      | Confusion Matrix       |
+|----------------------------|-------------------------|----------|----------|----------|------------------------|
+| XGB_Classifier             | best_xgb_lib_cv_acc     | 0.868852 | 0.870968 | 0.939655 | [[26, 3], [5, 27]]     |
+| XGB_Classifier             | best_xgb_lib_cv_roc     | 0.852459 | 0.861538 | 0.920259 | [[24, 5], [4, 28]]     |
+| XGB_Classifier             | best_xgb_lib_cv_logloss | 0.852459 | 0.861538 | 0.941810 | [[24, 5], [4, 28]]     |
+| XGB_Classifier             | best_xgb_lib_dir_acc    | 0.934426 | 0.937500 | 0.909483 | [[27, 2], [2, 30]]     |
+| XGB_Classifier             | best_xgb_lib_dir_roc    | 0.885246 | 0.892308 | 0.962284 | [[25, 4], [3, 29]]     |
+| XGB_Classifier             | best_xgb_lib_dir_logloss| 0.868852 | 0.870968 | 0.965517 | [[26, 3], [5, 27]]     |
+| XGB_Classifier             | best_xgb_dir_acc        | 0.901639 | 0.906250 | 0.940194 | [[26, 3], [3, 29]]     |
+| XGB_Classifier             | best_xgb_dir_roc        | 0.852459 | 0.861538 | 0.925108 | [[24, 5], [4, 28]]     |
+| XGB_Classifier             | best_xgb_dir_logloss    | 0.918033 | 0.920635 | 0.949892 | [[27, 2], [3, 29]]     |
+| Random_Forest_Classifier   | best_rf_cv_acc          | 0.901639 | 0.906250 | 0.938578 | [[26, 3], [3, 29]]     |
+| Random_Forest_Classifier   | best_rf_cv_roc          | 0.885246 | 0.892308 | 0.941810 | [[25, 4], [3, 29]]     |
+| Random_Forest_Classifier   | best_rf_cv_logloss      | 0.868852 | 0.866667 | 0.933190 | [[27, 2], [6, 26]]     |
+| Random_Forest_Classifier   | best_rf_dir_acc         | 0.901639 | 0.903226 | 0.935345 | [[27, 2], [4, 28]]     |
+| Random_Forest_Classifier   | best_rf_dir_roc         | 0.868852 | 0.882353 | 0.957974 | [[23, 6], [2, 30]]     |
+| Random_Forest_Classifier   | best_rf_dir_logloss     | 0.901639 | 0.903226 | 0.948815 | [[27, 2], [4, 28]]     |
+
+
+
+### Model Performance Metrics based on ideal threshold
 
 Model                           | AUC      | Thresholds
 ------------------------------- | -------- | -----------
