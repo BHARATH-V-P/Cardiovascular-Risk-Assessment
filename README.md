@@ -38,15 +38,18 @@ The script will:
 - Preprocess the raw data, including checking for null values and duplicates.
 - Perform detailed EDA to understand feature impacts on cardiovascular risk.
 - Implement feature engineering and selection through pipelines.
+- Perform Bayesian Optimization on selected models based on base validations
 - Optimize model performance and validate results using AUC.
 - Review evaluation metrics and predictions.
-- Features
+- 
+##Features
 - Data Preprocessing: Handles missing values and applies normalization and transformations.
 - Exploratory Data Analysis: Provides insights into feature variability and interactions.
 - Feature Engineering: Includes feature selection and transformation.
-- Model Training: Utilizes various machine learning models for classification.
+- Model Training: Utilizes various machine learning models for understanding the base model performance.
+- Performance optimization- Bayesian Hyperparameter optimization on XGB Classifier and Random Forest Classifier models accross different configurations.
 - Performance Optimization: Uses AUC for model performance evaluation and accuracy improvement.
-3. Model Evaluation: Assesses model performance and accuracy through various metrics.
+3. Model Evaluation: Assesses model performance such as accuracy and AUC scores through various metrics.
   
 ## Results
 Data Wrangling and EDA: Detailed data wrangling and EDA ensured accurate feature interactions and variability assessment.
