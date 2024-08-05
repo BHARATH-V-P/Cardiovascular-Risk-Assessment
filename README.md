@@ -11,7 +11,7 @@ The Cardiovascular Risk Assessment project focuses on evaluating cardiovascular 
 - [License](#license)
 
 
-##Introduction
+## Introduction
 
 This project aims to build an accurate classification model for assessing cardiovascular risk based on a range of health and lifestyle features. Key steps in the project include:
 
@@ -21,7 +21,7 @@ Data Pre-Processing: Implemented streamlined data preprocessing techniques using
 Model Optimization: Enhanced model performance by optimizing using AUC and achieving a 7% improvement in overall accuracy.
 
 
-##Installation
+## Installation
 
 1. Clone the repository:
 git clone https://github.com/yourusername/Cardiovascular-Risk-Assessment
@@ -30,7 +30,7 @@ cd Cardiovascular-Risk-Assessment
 3. Install dependencies:
 pip install -r requirements.txt
 
-##Usage
+## Usage
 1. Prepare Your Dataset: Place your datasets in the data/ directory. Ensure the dataset is named cardiovascular_data.csv or adjust the script accordingly.
 2. Open the Jupyter Notebook:
 jupyter notebook "Cardiovascular_Risk_Assessment_EDA.ipynb"
@@ -42,7 +42,7 @@ The script will:
 - Optimize model performance and validate results using AUC.
 - Review evaluation metrics and predictions.
 - 
-##Features
+## Features
 - Data Preprocessing: Handles missing values and applies normalization and transformations.
 - Exploratory Data Analysis: Provides insights into feature variability and interactions.
 - Feature Engineering: Includes feature selection and transformation.
