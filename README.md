@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## Usage
 1. Prepare Your Dataset: Place your datasets in the data/ directory. Ensure the dataset is named cardiovascular_data.csv or adjust the script accordingly.
 2. Open the Jupyter Notebook:
-jupyter notebook "Cardiovascular_Risk_Assessment_EDA.ipynb"
+jupyter notebook "HEART_ EDA _CONCISE_final.ipynb"
 3. The script will:
 - Data Preprocessing: Handles missing values, duplicate values, normalization and encoding of all predictors as needed.
 - Perform detailed EDA to understand feature impacts on cardiovascular risk.
