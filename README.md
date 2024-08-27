@@ -24,7 +24,7 @@ Model Optimization: Enhanced model performance by optimizing using AUC and achie
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/Cardiovascular-Risk-Assessment
+git clone https://github.com/BHARATH-V-P/Cardiovascular-Risk-Assessment
 2.  to the project directory:
 cd Cardiovascular-Risk-Assessment
 3. Install dependencies:
